@@ -1,8 +1,6 @@
-// Variáveis
 let nomeHeroi = "Trevyl";
 let xpHeroi = 7500;
 
-// Estrutura de decisão
 let nivel;
 
 if (xpHeroi < 1000) {
@@ -23,5 +21,4 @@ if (xpHeroi < 1000) {
     nivel = "Radiante";
 }
 
-// Saída
 console.log("O Herói de nome " + nomeHeroi , "está no nível " + nivel);
